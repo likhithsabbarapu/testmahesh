@@ -1,13 +1,16 @@
 {
   "name": "react-p",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://likhithsabbarapu.github.io/testmahesh/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "predeploy": "npm run build",
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.7.0",
