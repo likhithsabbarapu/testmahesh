@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://likhithsabbarapu.github.io/testmahesh/",
+  "homepage": "https://likhithsabbarapu.github.io/testmahesh"
+,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
