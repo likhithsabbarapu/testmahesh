@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
-
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Certifications from './components/Certification'
 import Strengths from './components/Strengths'
 import Contact from './components/Contact'
@@ -25,6 +25,12 @@ function App() {
             <Strengths />
             <Contact />
             <Footer />
+            <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
+
         </div>
     )
 }
